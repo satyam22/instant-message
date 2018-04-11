@@ -7,9 +7,14 @@
     "apollo-client": "^2.2.8",
     "apollo-link-http": "^1.5.3",
     "apollo-test-utils": "^0.3.2",
+    "bcryptjs": "^2.4.3",
     "graphql": "^0.13.2",
     "graphql-tag": "^2.8.0",
     "graphql-tools": "^2.23.1",
+    "graphql-yoga": "^1.7.0",
+    "jsonwebtoken": "^8.2.0",
+    "nodemon": "^1.17.3",
+    "prisma-binding": "^1.5.16",
     "react": "^16.3.1",
     "react-apollo": "^2.1.2",
     "react-dom": "^16.3.1",
@@ -19,6 +24,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "start-server": "nodemon server/index.js"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.2"
   }
 }
